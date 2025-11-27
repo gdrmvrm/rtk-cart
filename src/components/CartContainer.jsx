@@ -10,9 +10,9 @@ const CartContainer = () => {
 
   const dispatch = useDispatch();
 
-  useEffect(() => {
-    dispatch(calculateTotals());
-  }, [cartItems]);
+  // useEffect(() => {
+  //   dispatch(calculateTotals());
+  // }, [cartItems]);
 
   if (amount < 1) {
     return (
